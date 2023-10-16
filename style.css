@@ -213,9 +213,9 @@ nav .navlinks li a:hover{
     nav .navlinks{
         position: absolute;
         top: 110px;
-        right:-100% ;
+        right:00% ;
         bottom: 0;
-        width: 100%;
+        width: -50%;
         height: 100vh;
         background-color: #222;
         z-index: 3;
