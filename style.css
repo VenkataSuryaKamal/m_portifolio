@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    overflow-x:none;
+    overflow-x:hidden;
 
 }
 .hero-header{
@@ -69,7 +69,7 @@ nav .togglebtn{
     display: none;
 }
 nav .togglebtn span{
-    display: flex;
+    display: block;
     background-color: #007ced;
     margin: 5px 0px;
     width: 100%;
@@ -213,9 +213,9 @@ nav .navlinks li a:hover{
     nav .navlinks{
         position: absolute;
         top: 110px;
-        right:00% ;
+        right:-80% ;
         bottom: 0;
-        width: -50%;
+        width: 60%;
         height: 100vh;
         background-color: #222;
         z-index: 3;
@@ -237,7 +237,7 @@ nav .navlinks li a:hover{
     }
 
 }
-@media(max-width:768px){
+@media(max-width:720px){
     .container{
         flex-direction: column;
         padding-top: 2rem;
