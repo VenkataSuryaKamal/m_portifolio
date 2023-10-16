@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <!-- <i class="fa-solid fa-s"></i>
+                    <div class="logo-text">SK.</div> -->
+                    <img src="./images/sk (1)-modified.png" alt="">
+
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+            <div class="container">
+
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Fronted Developer</span></h5>
+                    <h1>Surya Kamal</h1>
+                    <p>This Is My Official Portfolio Website To Showes All
+                        <br>Details And Work Experiences.......
+                    </p>
+
+
+                    <div class="btn-group">
+                        <a href="./PENTAPATI VENKATA SURYA KAMAL (3).pdf" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+
+
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/pentapati-venkata-surya-kamal-807127228/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/VenkataSuryaKamal"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/suryakamal0912?t=KesKbWKwiSqSAvto6Knmxg&s=09"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/its__me__surya_143/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-pic">
+                    <img src="./images/kamal.png" alt="profile pic">
+                </div>
+            </div>
+        </div>
+        <section class="about">
+            <div class="main">
+                <img src="./images/Snapchat-1997805825.jpg" alt="">
+                <div class="about-text">
+                    <h1>About</h1>
+                    <h5> Web <span> & Front-End Developer </span></h5>
+                    <p>I am a front-end and web developer. I can provide clean code and pixel perfect design.
+                        I also makethe website more & more interactive with web animations.A responsive design makes
+                        your
+                        website
+                        accessible to all users, regardless of their device.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row">
+                    <h1><span>Contact</span> Us</h1>
+                </div>
+                <div class="underline"></div>
+                <div class="contact-info">
+                    <div class="card">
+                        <i style="font-size: 28px;align-items: center;padding-top: 15px;"
+                            class="card-icon fa fa-envelope"></i>
+                        <p>sk.tech091202@gmail.com</p>
+                    </div>
+                    <div class="card">
+                        <i style="font-size: 28px;align-items: center;padding-top: 15px;"
+                            class="card-icon fa fa-phone"></i>
+                        <p>+91 93940 31141</p>
+                    </div>
+                    <div class="card">
+                        <i style="font-size: 28px;align-items: center;padding-top: 15px;"
+                            class="card-icon fa fa-map-marker"></i>
+                        <p>11-223/3 Chandanapuri colony, shimachalam road visakhapathnam</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <h5>Note: <span>please be contact to the given above number</span></h5>
+                    <div class="underline2"></div> 
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+    var togglebtn = document.querySelector(".togglebtn");
+    var nav = document.querySelector(".navlinks");
+    var links = document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+
+    var typed = new Typed(".input", {
+        strings: ["Fronted Developer", "Web Developer"],
+        typeSpeed: 70,
+        backSpeed: 55,
+        loop: true
+    })
+</script>
+
+</html>
