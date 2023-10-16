@@ -69,7 +69,7 @@ nav .togglebtn{
     display: none;
 }
 nav .togglebtn span{
-    display: block;
+    display: flex;
     background-color: #007ced;
     margin: 5px 0px;
     width: 100%;
