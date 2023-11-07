@@ -187,7 +187,7 @@ nav .navlinks li a:hover{
     color: orange;
     transform: rotate(360deg);
 }
-@media(max-width:930px){
+/* @media(max-width:930px){
     nav .togglebtn{
         display: initial;
     }
@@ -236,14 +236,61 @@ nav .navlinks li a:hover{
         right: 0;
     }
 
-}
-@media(max-width:720px){
+} */
+@media((min-width:720px) and (max-width:1024px)){
     .container{
         flex-direction: column;
         padding-top: 2rem;
     }
     .hero-text .about-text .contact .contact-info .card {
         padding:40px 0px ;
+    }
+    nav .togglebtn{
+        display: initial;
+    }
+    .click{
+        top: 45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2){
+        opacity: 0;
+        margin: 0;
+    }
+    .click span:last-child{
+        transform: rotate(45deg);
+        top: 0;
+
+    }
+    nav .navlinks{
+        position: absolute;
+        top: 110px;
+        right:-150% ;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: #222;
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0, 0, 0,0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+    nav .navlinks li{
+        display: block;
+
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right: 0;
     }
 }
 .about{
